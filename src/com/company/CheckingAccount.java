@@ -1,6 +1,6 @@
 package com.company;
 
-public class CheckingAccount extends BankAccount {
+public class CheckingAccount extends BankAccount implements Account {
     SavingAccount overdraftaccount;
 
     public CheckingAccount(String owner , Integer accountID, double amount, SavingAccount od)
@@ -29,4 +29,8 @@ public class CheckingAccount extends BankAccount {
         return result;
 
     }
+
+
+
+
 }

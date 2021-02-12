@@ -1,6 +1,6 @@
 package com.company;
 
-public class SavingAccount extends BankAccount {
+public class SavingAccount extends BankAccount implements Account{
 
     double interestRate;
 
@@ -15,4 +15,9 @@ public class SavingAccount extends BankAccount {
         balance += balance*interestRate;
     }
 
+    @Override
+    public void addInterests() {
+        addInterest();
+        // to get backward compability with Line's code
+    }
 }

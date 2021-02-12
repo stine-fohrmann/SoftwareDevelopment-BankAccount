@@ -1,6 +1,6 @@
 package com.company;
 
-public class BankAccount {
+public class BankAccount implements Account {
     double balance;
     String owner;
     Integer accountID;
@@ -9,6 +9,11 @@ public class BankAccount {
         this.balance = balance;
         this.owner = owner;
         this.accountID = accountID;
+    }
+
+    @Override
+    public void addInterests() {
+        // do nothing - no interests!
     }
 
     public double getBalance() {
