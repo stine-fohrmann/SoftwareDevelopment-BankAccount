@@ -1,4 +1,4 @@
-package com.company;
+package bank;
 
 public class BankAccount implements Account {
     double balance;

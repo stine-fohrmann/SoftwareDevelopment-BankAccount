@@ -1,4 +1,4 @@
-package com.company;
+package bank;
 
 public interface Account {
 

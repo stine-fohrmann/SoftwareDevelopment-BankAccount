@@ -1,4 +1,4 @@
-package com.company;
+package bank;
 
 public class SavingAccount extends BankAccount implements Account{
 

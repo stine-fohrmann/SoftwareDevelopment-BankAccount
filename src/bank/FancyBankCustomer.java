@@ -1,7 +1,4 @@
-package com.company;
-
-import com.company.Account;
-import com.company.BankAccount;
+package bank;
 
 import java.util.ArrayList;
 

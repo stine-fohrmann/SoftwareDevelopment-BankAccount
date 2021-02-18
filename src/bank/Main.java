@@ -1,9 +1,19 @@
-package com.company;
+package bank;
+
+import log.Log;
 
 public class Main {
 
     public static void main(String[] args) {
 	// write your code here
+
+
+        Log.createFile();
+        Log.write(Log.Level.INFO, "hej verden");
+        Log.write(Log.Level.ERROR, "Hello world");
+        Log.write(Log.Level.INFO, "hej verden");
+        Log.write(Log.Level.INFO, "hej verden");
+        Log.write(Log.Level.WARNING, "hej verden");
 
 
         // create and trying out the accounts
