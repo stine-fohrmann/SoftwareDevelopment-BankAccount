@@ -1,0 +1,5 @@
+2021/02/21 23:10:15	INFO	hej verden
+2021/02/21 23:10:15	ERROR	Hello world
+2021/02/21 23:10:15	INFO	hej verden
+2021/02/21 23:10:15	INFO	hej verden
+2021/02/21 23:10:15	WARNING	hej verden
