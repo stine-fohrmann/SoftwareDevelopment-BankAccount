@@ -9,13 +9,19 @@ class BankAccountTest {
 
     BankAccount bankAccount;
 
-    @BeforeEach
+    @BeforeEach     // a new bank account is created before each test?
     void setUp() {
         bankAccount = new BankAccount(500, "owner", 1);
     }
 
     @Test
     void withdrawal() {
+        bankAccount.withdrawal(250);
+        assertEquals(bankAccount.balance, 250);
+    }
 
+    @Test
+    void getBalanceTest(){
+        assertEquals(bankAccount.getBalance(), 500);
     }
 }

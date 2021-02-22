@@ -10,14 +10,15 @@ public class SavingAccount extends BankAccount implements Account{
         this.interestRate = rate;
     }
 
-    public void  addInterest()
+    public double  addInterest()
     {
         balance += balance*interestRate;
+        return balance;
     }
 
     @Override
-    public void addInterests() {
-        addInterest();
+    public double addInterests() {
+        return addInterest();
         // to get backward compability with Line's code
     }
 }

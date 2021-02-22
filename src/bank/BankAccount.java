@@ -12,8 +12,9 @@ public class BankAccount implements Account {
     }
 
     @Override
-    public void addInterests() {
+    public double addInterests() {
         // do nothing - no interests!
+        return -1.0;
     }
 
     public double getBalance() {
